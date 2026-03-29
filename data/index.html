@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>IronForge Gym – Forge Your Strength</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Barlow+Condensed:wght@400;600;700&family=Barlow:wght@300;400;500&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- CURSOR -->
+  <div class="cursor" id="cursor"></div>
+  <div class="cursor-dot" id="cursor-dot"></div>
+
+  <!-- NAV -->
+  <nav class="nav" id="nav">
+    <div class="nav-logo">
+      <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
+        <rect x="4" y="13" width="24" height="6" rx="2" fill="#c0392b"/>
+        <rect x="0" y="10" width="6" height="12" rx="2" fill="#c0392b"/>
+        <rect x="26" y="10" width="6" height="12" rx="2" fill="#c0392b"/>
+        <rect x="8" y="15" width="16" height="2" rx="1" fill="#fff" opacity="0.3"/>
+      </svg>
+      <span class="logo-text">INFINTY<br/><span class="logo-sub">GYM</span></span>
+    </div>
+
+
+    <ul class="nav-links">
+      <li><a href="#programs">Programs</a></li>
+      <li><a href="#coaching">Coaching</a></li>
+      <li><a href="#membership">Membership</a></li>
+      <li><a href="#locations">Locations</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+
+
+    <button class="nav-cta">Join Now</button>
+    <button class="hamburger" id="hamburger" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+
+
+  <!-- MOBILE MENU -->
+  <div class="mobile-menu" id="mobile-menu">
+    <ul>
+      <li><a href="#programs">Programs</a></li>
+      <li><a href="#coaching">Coaching</a></li>
+      <li><a href="#membership">Membership</a></li>
+      <li><a href="#locations">Locations</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </div>
+
+  <!-- HERO -->
+  <section class="hero" id="hero">
+    <div class="hero-bg">
+      <img src="assets/redbull.jpg" alt="Hero" class="hero-img" id="hero-img" />
+      <div class="hero-overlay"></div>
+      <div class="hero-vignette"></div>
+    </div>
+
+    <div class="hero-content">
+      <p class="hero-eyebrow" data-reveal>Est. 2008 &nbsp;·&nbsp; Elite Training</p>
+      <h1 class="hero-title" data-reveal>
+        <span class="line">Forge Your</span>
+        <span class="line accent">Strength</span>
+      </h1>
+      <p class="hero-sub" data-reveal>
+        Elite coaching &nbsp;·&nbsp; Science-driven programs &nbsp;·&nbsp; 24/7 access
+      </p>
+      <div class="hero-actions" data-reveal>
+        <a href="#membership" class="btn btn-primary">Start Free Trial</a>
+        <a href="#programs" class="btn btn-ghost">View Programs</a>
+      </div>
+    </div>
+
+    <div class="hero-stats" data-reveal>
+      <div class="stat">
+        <div class="stat-row"><span class="stat-num" data-count="12">0</span><span class="stat-suffix">K+</span></div>
+        <p>Members</p>
+      </div>
+      <div class="stat-divider"></div>
+      <div class="stat">
+        <div class="stat-row"><span class="stat-num" data-count="48">0</span><span class="stat-suffix"></span></div>
+        <p>Locations</p>
+      </div>
+      <div class="stat-divider"></div>
+      <div class="stat">
+        <div class="stat-row"><span class="stat-num" data-count="15">0</span><span class="stat-suffix">+</span></div>
+        <p>Years</p>
+      </div>
+    </div>
+
+    <div class="scroll-indicator">
+      <div class="scroll-line"></div>
+      <span>Scroll</span>
+    </div>
+  </section>
+
+  <!-- TICKER -->
+  <div class="ticker-wrap">
+    <div class="ticker-track">
+      <span>Forge Your Strength</span><span class="ticker-dot">◆</span>
+      <span>Elite Coaching</span><span class="ticker-dot">◆</span>
+      <span>Science-Driven Programs</span><span class="ticker-dot">◆</span>
+      <span>24/7 Access</span><span class="ticker-dot">◆</span>
+      <span>Join The Forge</span><span class="ticker-dot">◆</span>
+      <span>Forge Your Strength</span><span class="ticker-dot">◆</span>
+      <span>Elite Coaching</span><span class="ticker-dot">◆</span>
+      <span>Science-Driven Programs</span><span class="ticker-dot">◆</span>
+      <span>24/7 Access</span><span class="ticker-dot">◆</span>
+      <span>Join The Forge</span><span class="ticker-dot">◆</span>
+    </div>
+  </div>
+
+  <!-- PROGRAMS -->
+  <section class="section" id="programs">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-label">What We Offer</p>
+        <h2 class="section-title">Training <span class="accent">Programs</span></h2>
+      </div>
+      <div class="programs-grid">
+        <div class="program-card" data-reveal>
+          <div class="program-icon">🏋️</div>
+          <h3>Strength &amp; Powerlifting</h3>
+          <p>Build raw power using progressive overload, periodised training blocks and expert form coaching.</p>
+          <span class="program-tag">Beginner–Advanced</span>
+        </div>
+        <div class="program-card featured" data-reveal>
+          <div class="program-badge">Most Popular</div>
+          <div class="program-icon">⚡</div>
+          <h3>HIIT &amp; Conditioning</h3>
+          <p>Torch calories and build cardiovascular endurance with explosive interval circuits.</p>
+          <span class="program-tag">All Levels</span>
+        </div>
+        <div class="program-card" data-reveal>
+          <div class="program-icon">🥊</div>
+          <h3>Combat Fitness</h3>
+          <p>Boxing, MMA-inspired drills and functional movement for total-body dominance.</p>
+          <span class="program-tag">Intermediate</span>
+        </div>
+        <div class="program-card" data-reveal>
+          <div class="program-icon">🧘</div>
+          <h3>Recovery &amp; Mobility</h3>
+          <p>Targeted stretching, fascial release and breath-work to bulletproof your body.</p>
+          <span class="program-tag">All Levels</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- COACHING -->
+  <section class="section dark-section" id="coaching">
+    <div class="container">
+      <div class="coaching-layout">
+        <div class="coaching-text" data-reveal>
+          <p class="section-label">Expert Guidance</p>
+          <h2 class="section-title">1-on-1 <span class="accent">Coaching</span></h2>
+          <p class="coaching-desc">Our certified coaches bring decades of combined experience in sports science, physiology and performance. No cookie-cutter plans—just data-driven protocols built around you.</p>
+          <ul class="coaching-list">
+            <li><span class="check">✓</span> Personalised training plan every 4 weeks</li>
+            <li><span class="check">✓</span> Nutrition &amp; recovery blueprints</li>
+            <li><span class="check">✓</span> Weekly check-ins &amp; form video reviews</li>
+            <li><span class="check">✓</span> Access to the coach 7 days a week</li>
+          </ul>
+          <a href="#membership" class="btn btn-primary">Book a Consultation</a>
+        </div>
+        <div class="coaching-cards" data-reveal>
+          <div class="coach-card">
+            <div class="coach-avatar coach-av1">MR</div>
+            <div class="coach-info">
+              <strong>Marcus Reid</strong>
+              <p>Strength &amp; Powerlifting</p>
+            </div>
+            <span class="coach-exp">12 yrs</span>
+          </div>
+          <div class="coach-card">
+            <div class="coach-avatar coach-av2">SL</div>
+            <div class="coach-info">
+              <strong>Sofia Lane</strong>
+              <p>HIIT &amp; Conditioning</p>
+            </div>
+            <span class="coach-exp">9 yrs</span>
+          </div>
+          <div class="coach-card">
+            <div class="coach-avatar coach-av3">DJ</div>
+            <div class="coach-info">
+              <strong>Dante Juarez</strong>
+              <p>Combat Fitness</p>
+            </div>
+            <span class="coach-exp">14 yrs</span>
+          </div>
+          <div class="coach-card">
+            <div class="coach-avatar coach-av4">AK</div>
+            <div class="coach-info">
+              <strong>Anika Kruse</strong>
+              <p>Recovery &amp; Mobility</p>
+            </div>
+            <span class="coach-exp">8 yrs</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- MEMBERSHIP -->
+  <section class="section" id="membership">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-label">Choose Your Path</p>
+        <h2 class="section-title">Membership <span class="accent">Plans</span></h2>
+      </div>
+      <div class="plans-grid">
+        <div class="plan-card" data-reveal>
+          <h3 class="plan-name">Forge Basic</h3>
+          <div class="plan-price"><sup>₹</sup>1,199<span>/mo</span></div>
+          <ul class="plan-features">
+            <li>Gym floor access</li>
+            <li>Group classes (3/week)</li>
+            <li>Locker access</li>
+            <li class="disabled">Personal coaching</li>
+            <li class="disabled">Nutrition plan</li>
+          </ul>
+          <a href="#contact" class="btn btn-ghost full">Get Started</a>
+        </div>
+        <div class="plan-card featured-plan" data-reveal>
+          <div class="plan-badge">Best Value</div>
+          <h3 class="plan-name">Forge Pro</h3>
+          <div class="plan-price"><sup>₹</sup>1,999<span>/mo</span></div>
+          <ul class="plan-features">
+            <li>Unlimited gym access</li>
+            <li>All group classes</li>
+            <li>2× coaching sessions/mo</li>
+            <li>Custom nutrition plan</li>
+            <li class="disabled">24/7 priority support</li>
+          </ul>
+          <a href="#contact" class="btn btn-primary full">Get Started</a>
+        </div>
+        <div class="plan-card" data-reveal>
+          <h3 class="plan-name">Forge Elite</h3>
+          <div class="plan-price"><sup>₹</sup>4,499<span>/mo</span></div>
+          <ul class="plan-features">
+            <li>24/7 unlimited access</li>
+            <li>All group classes</li>
+            <li>Unlimited coaching</li>
+            <li>Full nutrition &amp; recovery</li>
+            <li>Priority support &amp; VIP</li>
+          </ul>
+          <a href="#contact" class="btn btn-ghost full">Get Started</a>
+        </div>
+      </div>
+      <p class="plans-note">All plans include a 7-day free trial. No credit card required.</p>
+    </div>
+  </section>
+
+  <!-- LOCATIONS -->
+  <section class="section dark-section" id="locations">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-label">Find Us</p>
+        <h2 class="section-title">Our <span class="accent">Locations</span></h2>
+      </div>
+      <div class="locations-grid">
+        <div class="location-card" data-reveal>
+          <div class="location-num">01</div>
+          <h3>Ahmedabad Central</h3>
+          <p>SG Highway, Near Iscon Mall, Ahmedabad 380015</p>
+          <span class="location-hours">Open 24/7</span>
+        </div>
+        <div class="location-card" data-reveal>
+          <div class="location-num">02</div>
+          <h3>Mumbai Bandra</h3>
+          <p>Hill Road, Bandra West, Mumbai 400050</p>
+          <span class="location-hours">5 AM – 12 AM</span>
+        </div>
+        <div class="location-card" data-reveal>
+          <div class="location-num">03</div>
+          <h3>Delhi South Ex</h3>
+          <p>Ring Road, South Extension II, Delhi 110049</p>
+          <span class="location-hours">Open 24/7</span>
+        </div>
+        <div class="location-card" data-reveal>
+          <div class="location-num">04</div>
+          <h3>Bangalore Indiranagar</h3>
+          <p>100 Feet Road, Indiranagar, Bengaluru 560038</p>
+          <span class="location-hours">Open 24/7</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <!-- CONTACT -->
+  <section class="section" id="contact">
+    <div class="container contact-layout">
+      <div class="contact-text" data-reveal>
+        <p class="section-label">Get In Touch</p>
+        <h2 class="section-title">Start Your <span class="accent">Journey</span></h2>
+        <p>Ready to forge a stronger version of yourself? Drop us a message and our team will reach out within 24 hours.</p>
+        <div class="contact-info">
+          <p>📞 +91 90167XXXXX</p>
+          <p>📧 manavd08.gmail.com</p>
+          <p>📍 Rajpipla, Gujarat</p>
+        </div>
+      </div>
+      <form class="contact-form" id="contact-form" data-reveal>
+        <div class="form-row">
+          <input type="text" placeholder="Your Name" required />
+          <input type="email" placeholder="Email Address" required />
+        </div>
+        <input type="tel" placeholder="Phone Number" />
+        <select>
+          <option value="" disabled selected>Interested in…</option>
+          <option>Forge Basic</option>
+          <option>Forge Pro</option>
+          <option>Forge Elite</option>
+          <option>Personal Coaching</option>
+        </select>
+        <textarea rows="4" placeholder="Tell us about your goals…"></textarea>
+        <button type="submit" class="btn btn-primary full">Send Message ↗</button>
+        <p class="form-note" id="form-msg"></p>
+      </form>
+    </div>
+  </section>
+
+
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <span class="footer-logo">INFINTY <span class="accent">GYM</span></span>
+        <p>Forging champions since 2008.</p>
+      </div>
+      <div class="footer-links">
+        <a href="#programs">Programs</a>
+        <a href="#coaching">Coaching</a>
+        <a href="#membership">Membership</a>
+        <a href="#locations">Locations</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <p class="footer-copy">© 2025 IronForge Gym. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
